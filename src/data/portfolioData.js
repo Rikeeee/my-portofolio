@@ -1,6 +1,6 @@
 import portfolioImg01 from '../asset/projects/tugasgrafana.jpg';
-import portfolioImg02 from '../asset/projects/projectImg-02.JPG';
-import portfolioImg03 from '../asset/projects/projectImg-03.JPG';
+import portfolioImg02 from '../asset/projects/crediwiz.jpg';
+import portfolioImg03 from '../asset/projects/IRB.jpg';
 import portfolioImg04 from '../asset/projects/projectImg-04.JPG';
 import portfolioImg05 from '../asset/projects/projectImg-05.JPG';
 import portfolioImg06 from '../asset/projects/projectImg-06.JPG';
@@ -24,19 +24,19 @@ const portfolioData = [
   {
     id: '02',
     imgUrl: portfolioImg02,
-    title: 'Netflix App',
-    description: 'Netflix-inspired project powered by React and Tailwind CSS. Deployed on Vercel, with Firebase for the database and movie information. Elevate your streaming experience with sleek design and efficient data management.',
-    tech: ['React', 'Tailwind css', 'Movie Database', 'Firebase', 'Vercel'],
-    siteUrl: 'https://netflix-app-phi-three.vercel.app/',
+    title: 'Crediwiz - Credit Card Predictions',
+    description: 'The Credit Card Predictions task aims to build a predictive model to estimate user behavior, such as default risk, by analyzing transaction data and user profiles. This model helps financial institutions manage credit risk and deliver more personalized services.',
+    tech: ['Python', 'Streamlit', 'PyCaret'],
+    siteUrl: 'https://drive.google.com/file/d/1Ylmr-b4jvCZ6K3-QxtyvFn2mi1FUcv7p/view?usp=sharing',
   },
 
   {
     id: '03',
     imgUrl: portfolioImg03,
-    title: 'Crypto Base App',
-    description: 'Crypto Base App: React and Tailwind CSS harmonize for seamless UI. Vercel hosts it, Coingecko API fuels live data, and Firebase stores favorites. Enjoy React Sparkline, Ant Design finesse, and real-time insights.',
-    tech: ['React', 'Tailwind css', 'React Icons', 'Ant Design', 'React Sparklines'],
-    siteUrl: 'https://crypto-api-lake.vercel.app/',
+    title: 'Dashboard for Clustering Disaster Risk Index in East Java with Tableau',
+    description: 'This dashboard leverages Tableau to visualize the Disaster Risk Index in East Java. It includes an interactive map, bar charts, pie charts, and box plots, allowing users to explore geographic distributions and relationships between risk factors. Users can filter data by year, enabling analysis of trends and risk levels over time to support informed decision-making in disaster management and risk reduction.',
+    tech: ['Tableau', 'Python'],
+    siteUrl: 'https://public.tableau.com/app/profile/rike.anindhita/viz/UAS_17006797833740/Dashboard1?publish=yes',
   },
 
   {
