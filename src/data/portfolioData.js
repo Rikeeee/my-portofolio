@@ -5,6 +5,7 @@ import portfolioImg04 from '../asset/projects/ECM.jpg';
 import portfolioImg05 from '../asset/projects/WAD.png';
 import portfolioImg06 from '../asset/projects/DM.jpg';
 import portfolioImg07 from '../asset/projects/WASM.jpg';
+import portfolioImg08 from '../asset/projects/ELS.jpg';
 
 const portfolioData = [
   {
@@ -71,6 +72,15 @@ const portfolioData = [
       'This study aims to compare the performance of two machine learning models, Random Forest and Support Vector Machine (SVM), in detecting cyberbullying comments.',
     tech: ['Python', 'Random Forest', 'Support Vector Machine (SVM)', 'Text Mining'],
     siteUrl: 'https://drive.google.com/file/d/1N_4WiZTMjaHKN3cD-_A1GBdkqgGYB-cd/view?usp=sharing',
+  },
+  {
+    id: '08',
+    imgUrl: portfolioImg08,
+    title: 'Eepis Lending Space: Web Service Development to Room or Space Reservation on Campus',
+    description:
+      'This project aims to develop a platform that facilitates room reservations for students, staff, and organizations, enhancing efficiency in room management while providing a seamless and user-friendly booking experience on campus.',
+    tech: ['Html', 'CSS', 'MySQL', 'Java Script'],
+    siteUrl: 'https://drive.google.com/file/d/1uppIq2VpeSylEU_eMBN3vLrC9eDtL3Op/view?usp=sharing',
   },
 ];
 
