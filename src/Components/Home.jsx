@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 import { useInView } from 'react-intersection-observer';
-import myPhoto from '../asset/foto_rike.png';
+import myPhoto from '../asset/potoku.png';
 
 const Home = () => {
   const [animate, setAnimate] = useState(false);

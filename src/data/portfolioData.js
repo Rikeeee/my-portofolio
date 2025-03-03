@@ -1,14 +1,10 @@
 import portfolioImg01 from '../asset/projects/tugasgrafana.jpg';
 import portfolioImg02 from '../asset/projects/crediwiz.jpg';
 import portfolioImg03 from '../asset/projects/IRB.jpg';
-import portfolioImg04 from '../asset/projects/projectImg-04.JPG';
-import portfolioImg05 from '../asset/projects/projectImg-05.JPG';
-import portfolioImg06 from '../asset/projects/projectImg-06.JPG';
-import portfolioImg07 from '../asset/projects/projectImg-07.JPG';
-import MealtyPic from '../asset/projects/mealty.png';
-import WebMealtyPic from '../asset/projects/mealty_web.png';
-import ToeflPensPic from '../asset/projects/toefl_pens.jpg';
-import SiSabi from '../asset/projects/sisabi.png';
+import portfolioImg04 from '../asset/projects/ECM.jpg';
+import portfolioImg05 from '../asset/projects/WAD.png';
+import portfolioImg06 from '../asset/projects/DM.jpg';
+import portfolioImg07 from '../asset/projects/WASM.jpg';
 
 const portfolioData = [
   {
@@ -42,75 +38,39 @@ const portfolioData = [
   {
     id: '04',
     imgUrl: portfolioImg04,
-    title: 'Travel Landing Page',
-    description: 'Travel Landing: Captivating React creation infused with Tailwind CSS and React Icons. Experience wanderlust brought to life, hosted effortlessly on Netlify.',
-    tech: ['React', 'Tailwind css', 'React Icons'],
-    siteUrl: 'https://rq-travello.netlify.app/',
+    title: 'Analysis of the Effect of Economic Growth on Inflation Using the Error Correction Model (ECM)',
+    description: 'This study analyzes the long-term relationship (cointegration) between inflation, economic growth, and crisis factors, examines the short- and long-term impacts using the Error Correction Model (ECM), tests data stationarity and cointegration for validity, assesses the crisis effect on inflation and its link to economic growth, and provides policy insights on their economic implications.',
+    tech: ['Python', 'Jupyter Notebook', 'statsmodels'],
+    siteUrl: 'https://github.com/Rikeeee/Ekonometrika_ECM',
   },
 
   {
     id: '05',
     imgUrl: portfolioImg05,
-    title: 'Healthcare Website',
+    title: 'Development Of Lecturer Performance Dashboards In The Learning Process In PENS',
     description:
-      'Explore Health Website: A robust React creation harmonized with Tailwind CSS and enhanced with React Icons. Dive into comprehensive health care facilities showcased elegantly. Seamlessly deployed on Netlify and hosted on Namecheap for an immersive online experience.',
-    tech: ['React', 'Tailwind css', 'Node.js', 'MongoDB'],
-    siteUrl: 'https://www.ajanihealthcare.com/',
+      'Develop an interactive dashboard using Tableau to display lecturer Sperformance which can help academic managers evaluate and improve the quality of lecturer teaching.',
+    tech: ['Tableau', 'Python', 'Jupyter Notebook', 'Multidimensional Scaling'],
+    siteUrl: 'https://public.tableau.com/app/profile/fir.manda/viz/KinerjaDosenFixed/hometeori2?publish=yes',
   },
 
   {
     id: '06',
     imgUrl: portfolioImg06,
-    title: 'Web3.0 Crowdfunding Web App',
+    title: 'Health Risk Analysis and Patterns of Healthcare Service Usage: A DataDriven Approach Based on Patient Identity',
     description:
-      'Crafting a cutting-edge Web3 crowdfunding platform akin to Kickstarter. We are leveraging React+Vite for seamless UI, Thirdweb for decentralized magic, Metamask for wallet wizardry, Solidity for rock-solid smart contracts, and Tailwind CSS for a sleek design thats set to revolutionize crowdfunding.',
-    tech: ['React+Vite', 'Tailwind css', 'Solidity', 'MetaMask', 'Smart Contract', 'HardHat', 'Vercel'],
-    siteUrl: 'https://web3-thirdweb-seven.vercel.app/',
+      'Analyzing patient identity data to identify factors that are significant in predicting an individual health risk.',
+    tech: ['Python', 'Data Mining', 'K-Nearest Neighbors Classifier', 'Decision Tree Classifier'],
+    siteUrl: 'https://drive.google.com/file/d/1Le9Q8JVg3RbckL5-XbMltayTesg5Ed_l/view?usp=sharing',
   },
   {
     id: '07',
     imgUrl: portfolioImg07,
-    title: 'Business',
+    title: 'Cyberbullying Detection on Deddy Corbuzier YouTube Channel Comments Using Random Forest and SVM Algorithms',
     description:
-      'Our app harnesses the extraordinary capabilities of OpenAIs DALL-E to generate stunning and imaginative images based on your input. We have crafted this application using the MERN (MongoDB, Express.js, React, Node.js) stack to provide a seamless and responsive user experience.',
-    tech: ['React', 'Vite', 'Tailwind css', 'Node.js', 'MongoDB', 'Express.js', 'OpenAI'],
-    siteUrl: 'https://openai-image-generation-alpha.vercel.app/',
-  },
-  {
-    id: '08',
-    imgUrl: MealtyPic,
-    title: 'Agile PdBL : Mealty App',
-    description:
-      'Crafted with React and Vite, our cutting-edge dashboard project features dynamic data visualization using Tremor components. Experience real-time insights and seamless user interaction, all powered by the latest web technologies.',
-    tech: ['Flutter'],
-    siteUrl: 'https://play.google.com/store/apps/details?id=com.development.mealty',
-  },
-  {
-    id: '09',
-    imgUrl: WebMealtyPic,
-    title: 'Agile PdBL : Mealty Website',
-    description:
-      'Crafted with React and Vite, our cutting-edge dashboard project features dynamic data visualization using Tremor components. Experience real-time insights and seamless user interaction, all powered by the latest web technologies.',
-    tech: ['Flutter, Supabase'],
-    siteUrl: 'https://mealty.agileteknik.com/',
-  },
-  {
-    id: '10',
-    imgUrl: ToeflPensPic,
-    title: 'Agile PdBL : Mealty Website',
-    description:
-      'Crafted with React and Vite, our cutting-edge dashboard project features dynamic data visualization using Tremor components. Experience real-time insights and seamless user interaction, all powered by the latest web technologies.',
-    tech: ['ReactJS, Tailwind, Laravel'],
-    siteUrl: 'https://mealty.agileteknik.com/',
-  },
-  {
-    id: '11 ',
-    imgUrl: SiSabi,
-    title: 'Bank Indonesia KPW Jatim System Monitoring ',
-    description:
-      'Crafted with React and Vite, our cutting-edge dashboard project features dynamic data visualization using Tremor components. Experience real-time insights and seamless user interaction, all powered by the latest web technologies.',
-    tech: ['NextJS, Tailwind, MongoDB'],
-    siteUrl: 'https://mealty.agileteknik.com/',
+      'This study aims to compare the performance of two machine learning models, Random Forest and Support Vector Machine (SVM), in detecting cyberbullying comments.',
+    tech: ['Python', 'Random Forest', 'Support Vector Machine (SVM)', 'Text Mining'],
+    siteUrl: 'https://drive.google.com/file/d/1N_4WiZTMjaHKN3cD-_A1GBdkqgGYB-cd/view?usp=sharing',
   },
 ];
 
