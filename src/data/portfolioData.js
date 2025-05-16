@@ -1,11 +1,12 @@
 import portfolioImg01 from '../asset/projects/tugasgrafana.jpg';
 import portfolioImg02 from '../asset/projects/crediwiz.jpg';
-import portfolioImg03 from '../asset/projects/IRB.jpg';
+import portfolioImg03 from '../asset/projects/Dosen.jpg';
 import portfolioImg04 from '../asset/projects/ECM.jpg';
 import portfolioImg05 from '../asset/projects/WAD.jpg';
 import portfolioImg06 from '../asset/projects/DM.jpg';
 import portfolioImg07 from '../asset/projects/WASM.jpg';
 import portfolioImg08 from '../asset/projects/ELS.jpg';
+import portfolioImg09 from '../asset/projects/IRB.jpg';
 
 const portfolioData = [
   {
@@ -31,11 +32,11 @@ const portfolioData = [
   {
     id: '03',
     imgUrl: portfolioImg03,
-    title: 'Dashboard for Clustering Disaster Risk Index in East Java with Tableau',
+    title: 'Lecturer Performance Analysis Dashboard at PENS with Tableau',
     description:
-      'This dashboard leverages Tableau to visualize the Disaster Risk Index in East Java. It includes an interactive map, bar charts, pie charts, and box plots, allowing users to explore geographic distributions and relationships between risk factors. Users can filter data by year, enabling analysis of trends and risk levels over time to support informed decision-making in disaster management and risk reduction.',
-    tech: ['Tableau', 'Python'],
-    siteUrl: 'https://public.tableau.com/app/profile/rike.anindhita/viz/UAS_17006797833740/Dashboard1?publish=yes',
+      'Develop an interactive dashboard using Tableau to display lecturer performance which can help academic managers evaluate and improve the quality of lecturer teaching.',
+    tech: ['Tableau', 'Python', 'Microsoft Excel', 'SPSS'],
+    siteUrl: 'https://public.tableau.com/app/profile/fir.manda/viz/KinerjaDosenFixed/hometeori2',
   },
 
   {
@@ -65,6 +66,7 @@ const portfolioData = [
     tech: ['Python', 'Data Mining', 'K-Nearest Neighbors Classifier', 'Decision Tree Classifier'],
     siteUrl: 'https://drive.google.com/file/d/1Le9Q8JVg3RbckL5-XbMltayTesg5Ed_l/view?usp=sharing',
   },
+
   {
     id: '07',
     imgUrl: portfolioImg07,
@@ -73,6 +75,7 @@ const portfolioData = [
     tech: ['Python', 'Random Forest', 'Support Vector Machine (SVM)', 'Text Mining'],
     siteUrl: 'https://drive.google.com/file/d/1N_4WiZTMjaHKN3cD-_A1GBdkqgGYB-cd/view?usp=sharing',
   },
+
   {
     id: '08',
     imgUrl: portfolioImg08,
@@ -82,6 +85,17 @@ const portfolioData = [
     tech: ['Html', 'CSS', 'MySQL', 'Java Script'],
     siteUrl: 'https://drive.google.com/file/d/1uppIq2VpeSylEU_eMBN3vLrC9eDtL3Op/view?usp=sharing',
   },
+
+  {
+    id: '09',
+    imgUrl: portfolioImg09,
+    title: 'Dashboard for Clustering Disaster Risk Index in East Java with Tableau',
+    description:
+      'This dashboard leverages Tableau to visualize the Disaster Risk Index in East Java. It includes an interactive map, bar charts, pie charts, and box plots, allowing users to explore geographic distributions and relationships between risk factors. Users can filter data by year, enabling analysis of trends and risk levels over time to support informed decision-making in disaster management and risk reduction.',
+    tech: ['Tableau', 'Python'],
+    siteUrl: 'https://public.tableau.com/app/profile/rike.anindhita/viz/UAS_17006797833740/Dashboard1?publish=yes',
+  },
+
 ];
 
 export default portfolioData;
