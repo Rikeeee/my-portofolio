@@ -173,7 +173,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#565f69]">
             <a
               href={PDF}
-              download="RikeAnindhitaResume.pdf"
+              download="src/asset/cv.pdf"
               className="flex justify-between items-center w-full text-gray-300">
               Resume <BsFillFileEarmarkPersonFill size={30} />
             </a>
