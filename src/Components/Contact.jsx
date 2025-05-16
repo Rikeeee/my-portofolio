@@ -33,7 +33,7 @@ const Contact = () => {
       name="contact"
       className="w-full h-full bg-[#F5f5f5f5] flex flex-col justify-center items-center p-4 font-sans">
       <form
-        action="https://getform.io/f/cba16026-2d63-491a-8ab8-33f0ea8cdcb6"
+        action="https://getform.io/f/adrnojma"
         className="flex flex-col max-w-[600px] w-full"
         method="POST">
         <div className="pb-8">
