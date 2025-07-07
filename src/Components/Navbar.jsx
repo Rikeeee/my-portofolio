@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 import React, { useState } from 'react';
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaAddressBook } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { BsFillFileEarmarkPersonFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
@@ -9,9 +9,14 @@ import PDF from '../asset/cv.pdf';
 
 const Navbar = () => {
   const [navView, setNavView] = useState(false);
+  const [showSocial, setShowSocial] = useState(false);
 
   const handleNav = () => {
     setNavView(!navView);
+  };
+
+  const toggleSocial = () => {
+    setShowSocial(!showSocial);
   };
 
   return (
@@ -179,6 +184,58 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
+      </div>
+      <div className="lg:hidden fixed bottom-6 right-6 z-50 flex flex-col items-end space-y-3">
+        {showSocial && (
+          <>
+            <a
+              href="https://github.com/Rikeeee"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center bg-[#171515] text-gray-300 px-4 py-2 rounded-full shadow-lg transition-all duration-300 transform translate-y-0 opacity-100">
+              <FaGithub
+                size={20}
+                className="mr-2"
+              />{' '}
+              Github
+            </a>
+            <a
+              href="https://www.linkedin.com/in/rike-anindhita-30ba4a2a3/"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center bg-[#0A66C2] text-gray-300 px-4 py-2 rounded-full shadow-lg transition-all duration-300 transform translate-y-0 opacity-100">
+              <FaLinkedin
+                size={20}
+                className="mr-2"
+              />{' '}
+              LinkedIn
+            </a>
+            <a
+              href="mailto:rikeanindhita17@gmail.com"
+              className="flex items-center bg-[#BB001B] text-gray-300 px-4 py-2 rounded-full shadow-lg transition-all duration-300 transform translate-y-0 opacity-100">
+              <MdEmail
+                size={20}
+                className="mr-2"
+              />{' '}
+              Email
+            </a>
+            <a
+              href={PDF}
+              download="src/asset/cv.pdf"
+              className="flex items-center bg-[#565f69] text-gray-300 px-4 py-2 rounded-full shadow-lg transition-all duration-300 transform translate-y-0 opacity-100">
+              <BsFillFileEarmarkPersonFill
+                size={20}
+                className="mr-2"
+              />{' '}
+              Resume
+            </a>
+          </>
+        )}
+        <button
+          onClick={toggleSocial}
+          className="bg-[#C23B22] text-white p-3 rounded-full shadow-lg focus:outline-none">
+          {showSocial ? <FaTimes /> : <FaAddressBook />}
+        </button>
       </div>
     </div>
   );
