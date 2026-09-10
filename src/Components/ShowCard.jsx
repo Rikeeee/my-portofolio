@@ -12,10 +12,9 @@ const ShowCard = ({ activeId, setShowCard }) => {
   const portfolio = data.find((data) => data.id === activeId);
 
   return (
-    <div className="w-full h-screen fixed top-0 left-0 z-10 bg-[#0a192f] backdrop-filter backdrop-blur-sm bg-opacity-10 font-sans">
+    <div className="w-full h-screen fixed top-0 left-0 z-10 bg-[#0a192f] backdrop-filter backdrop-blur-sm bg-opacity-10 font-sans flex items-center justify-center p-4">
       <div
-        className="max-w-[1000px] w-[80%] sm:w-[60%] lg:w-[40%]  mx-aut absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px]
-            transform -translate-x-1/2 -translate-y-1/2 p-5">
+        className="max-w-[1000px] w-[90%] sm:w-[60%] lg:w-[40%] max-h-[85vh] overflow-y-auto relative z-20 bg-white rounded-[8px] p-5">
         <div className="flex items-center justify-center">
           <figure>
             <img
@@ -49,8 +48,8 @@ const ShowCard = ({ activeId, setShowCard }) => {
 
         <button
           onClick={() => setShowCard(false)}
-          className="w-[1.8rem] h-[1.8rem] bg-white absolute top-[1.7rem] right-[1.7rem] 
-            text-[20px] flex items-center justify-center rounded-[3px] leading-0 cursor-pointer hover:text-[#0a192f] ease-in duration-300">
+          className="w-[1.8rem] h-[1.8rem] bg-white shadow-md fixed top-4 right-4
+            text-[20px] flex items-center justify-center rounded-[3px] leading-0 cursor-pointer hover:text-[#0a192f] ease-in duration-300 z-30">
           <FaTimes />
         </button>
       </div>
