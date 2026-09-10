@@ -171,6 +171,7 @@ const Navbar = () => {
             <a
               href="mailto:rikeanindhita17@gmail.com"
               target="_blank"
+              rel="noreferrer"
               className="flex justify-between items-center w-full text-gray-300">
               Email <MdEmail size={30} />
             </a>

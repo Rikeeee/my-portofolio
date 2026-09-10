@@ -6,7 +6,7 @@ import ShowCard from './ShowCard';
 
 const Work2 = () => {
   const [nextItems, setNextItems] = useState(6);
-  const [portfolios, setPortfolios] = useState(data);
+  const portfolios = data;
   const [showCard, setShowCard] = useState(false);
   const [activeId, setActiveId] = useState(null);
 
