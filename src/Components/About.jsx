@@ -33,7 +33,7 @@ const About = () => {
             data-aos="fade-up"
             data-aos-duration="1000">
             <p className="text-[#2F3645]">
-            Undergraduate Applied Data Science in Electronics Engineering Polytechnic Institute of Surabaya with a strong foundation in data analysis and data science. Experienced in handling various data-driven projects and highly interested in utilizing data to solve real-world problems and create impactful solutions. Actively participate in committees to develop teamwork skills. Possess strong technical skills and a passion for continuously learning and applying new methodologies in the field of data science.
+            Applied Data Science graduate from Politeknik Elektronika Negeri Surabaya (PENS) with a strong foundation in data analysis, machine learning, and BI dashboard development. Currently working on Artificial Intelligence and Machine Learning Services at Innervate Engineering Limited, with prior hands-on experience across healthcare, government, and pipeline integrity data projects. Actively participate in committees to develop teamwork skills. Possess strong technical skills and a passion for continuously learning and applying new methodologies in the field of data science.
             </p>
           </div>
         </div>
