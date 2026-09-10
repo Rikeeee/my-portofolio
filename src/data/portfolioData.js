@@ -1,3 +1,6 @@
+import portfolioImg00 from '../asset/projects/SAGEDesa.png';
+import portfolioImgInnervate from '../asset/projects/innervate-logo.png';
+import portfolioImgBPBatam from '../asset/projects/bpbatam-dashboard.png';
 import portfolioImg01 from '../asset/projects/tugasgrafana.jpg';
 import portfolioImg02 from '../asset/projects/crediwiz.jpg';
 import portfolioImg03 from '../asset/projects/Dosen.jpg';
@@ -9,6 +12,36 @@ import portfolioImg08 from '../asset/projects/ELS.jpg';
 import portfolioImg09 from '../asset/projects/IRB.jpg';
 
 const portfolioData = [
+  {
+    id: '00',
+    imgUrl: portfolioImg00,
+    title: 'SAGE-Desa: Multimodel Predictive System for Farmer Resilience (Final Project)',
+    description:
+      'A web-based decision-support dashboard for smallholder farmers, integrating classification (Random Forest, Ordinal Logistic Regression), regression (Extra Trees, LASSO), and time-series forecasting (ARIMAX, LSTM, Exponential Smoothing) models for weather, crop yield, income, and commodity price prediction, plus an AI-assisted crop recommendation engine. Achieved 92.4% user satisfaction in acceptance testing.',
+    tech: ['Python', 'React', 'FastAPI', 'PostgreSQL', 'Scikit-learn', 'TensorFlow/Keras'],
+    siteUrl: 'https://github.com/Rikeeee/sage_desa',
+  },
+
+  {
+    id: 'innervate',
+    imgUrl: portfolioImgInnervate,
+    title: 'Artificial Intelligence and Machine Learning Services — Innervate Engineering Limited',
+    description:
+      'Developed corrosion rate prediction models for oil & gas pipelines, covering internal corrosion physics (NORSOK M-506) and external corrosion physics (AMPP SP0169 / ISO 15589-1), fused through a Physics-Informed Neural Network (PINN) layer. Implemented ASME B31G / B31.8S / B31.4-based remaining strength and probability-of-failure assessment for inline inspection analysis, delivered as FastAPI microservice endpoints. (Work is proprietary to Innervate Engineering Limited — details shown are limited to publicly describable scope.)',
+    tech: ['Python', 'FastAPI', 'PyTorch', 'Physics-Informed Neural Networks', 'ASME B31G', 'NORSOK M-506'],
+    siteUrl: 'https://innervate-lab.com/',
+  },
+
+  {
+    id: 'bpbatam',
+    imgUrl: portfolioImgBPBatam,
+    title: 'Machine Learning Specialist — BP Batam (Health Claims Prediction Dashboard)',
+    description:
+      'Built a Streamlit dashboard implementing machine learning models to predict and analyze INA-CBGs, Non-CBGs, and drug (Obat) BPJS Kesehatan claims for the Data and Information Center of the Batam Free Trade Zone and Free Port Authority (BP Batam).',
+    tech: ['Python', 'Streamlit', 'Scikit-learn', 'Pandas'],
+    siteUrl: 'https://github.com/Rikeeee/Dashboard-Pengajuan-Klaim',
+  },
+
   {
     id: '01',
     imgUrl: portfolioImg01,
