@@ -64,14 +64,14 @@ const Home = () => {
             className="text-2xl sm:text-4xl md:text-5xl font-bold text-[#295F98] mt-2"
             data-aos="fade-down"
             data-aos-duration="2500">
-            I am a Data Enthutiast!
+            I am a Data Enthusiast!
           </h2>
           <p
             className="py-4 max-w-[90%] text-[#2F3645] mx-auto md:mx-0 text-sm sm:text-base"
             data-aos="fade-up"
             data-aos-duration="2500"
             data-aos-delay="500">
-            I am currently focused on projects in Applied Data Science at PENS, including analyzing lecturer performance through surveys and developing machine learning models for fraud detection.
+            Applied Data Science graduate from PENS, currently working on Artificial Intelligence and Machine Learning Services at Innervate Engineering Limited. I love turning data into predictive models and interactive dashboards that solve real-world problems.
           </p>
 
           <Link

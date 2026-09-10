@@ -8,7 +8,7 @@ const AnimatedText = () => {
       {/* Block behind the text */}
       <div className="bg-[#124076] p-2 rounded-lg text-bold">
         <TypeAnimation
-          sequence={['I Love Data', 1000, 'Data Analyst Enthutiast', 1000, 'Data Scientist Enthutiast', 1000]}
+          sequence={['I Love Data', 1000, 'Data Analyst Enthusiast', 1000, 'Data Scientist Enthusiast', 1000]}
           speed={50}
           repeat={Infinity}
           className="text-[#ffffff] font-bold"
